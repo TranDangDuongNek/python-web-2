@@ -1,0 +1,6 @@
+.item {
+    grid-row-start: 1;    /* Bắt đầu từ dòng 1  theo chiều ngang*/
+    grid-row-end: 3;      /* Kết thúc ở dòng 3 theo chiều ngang*/
+    grid-column-start: 2;  /* Bắt đầu từ cột 2 theo chiều dọc */
+    grid-column-end: 4;    /* Kết thúc ở cột 4 theo chiều dọc*/
+}
