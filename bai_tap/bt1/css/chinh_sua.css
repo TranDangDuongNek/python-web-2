@@ -1,0 +1,124 @@
+.khoi {
+    width: 1300px;
+    height: 700px;
+
+    display: grid;
+    grid-template-columns: repeat(5, auto); /*chiều dài*/
+    grid-template-rows: repeat(11, auto);/*chiều cao*/
+    gap: 20px; 
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #000; 
+}
+
+#item1 {
+    background-image: url('../img/ba_li.png');
+    background-size: cover; 
+    background-position: center; 
+    height: 100%;   
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 6;
+
+}
+
+#item2 {
+    background-image: url('../img/quan.png');
+    background-size: cover; 
+    background-position: center; 
+    height: 100%;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 6;
+
+}
+#item3 {
+    background-image: url('../img/ba_li.png');
+    background-size: cover; 
+    background-position: center; 
+    height: 100%;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 6;
+
+}
+
+#item4 {
+    background-image: url('../img/quan.png');
+    background-size: cover; 
+    background-position: center; 
+    height: 100%;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 6;   
+}
+#item5 {
+    background-image: url('../img/ba_li.png');
+    background-size: cover; 
+    background-position: center; 
+    height: 100%;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 6;   
+}
+#item6 {
+    background-image: url('../img/quan.png');
+    background-size: cover; 
+    background-position: center; 
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 11;    
+}
+#item7 {
+    background-image: url('../img/ba_li.png');
+    background-size: cover; 
+    background-position: center; 
+    height: 100%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 11;     
+}
+#item8 {
+    background-image: url('../img/quan.png');
+    background-size: cover; 
+    background-position: center; 
+    height: 100%;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 11;    
+}
+#item9 {
+    background-image: url('../img/ba_li.png');
+    background-size: cover; 
+    background-position: center; 
+    height: 100%;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 11;   
+}
+#item10 {
+    background-image: url('../img/quan.png');
+    background-size: cover; 
+    background-position: center; 
+    height: 100%;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 11;  
+}
+

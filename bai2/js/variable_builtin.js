@@ -18,7 +18,7 @@
 
 // console.log(index); // error (is not defined)
 // *** const
-const object = { name: "abc", age: 15 };
+// const object = { name: "abc", age: 15 };
 // object += {} // error (is constant var)
 // object.name = "xyz";
 // console.table(object);
