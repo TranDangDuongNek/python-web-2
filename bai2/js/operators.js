@@ -79,3 +79,18 @@ else console.error("Can nhap ten");
 // var result = !("" & 8 & "A"); // true
 // var result = !(false && false) || true; // true
  
+// Toan tu 3 ngoi ------------------------------
+// const func = () => "a";
+// function func() {
+//   return "a";
+// }
+
+let a;
+if (a) a = "abc";
+else a = 123;
+
+const b = a ? (a = "abc") : (a = 123);
+// <dieu kien> ? <true> : <false>
+
+let arr;
+arr?.forEach((item) => console.log(item));
